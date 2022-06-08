@@ -62,7 +62,7 @@ jobs:
          java -jar  "../testresources/junit-platform-console-standalone-1.6.0.jar" -cp "." --select-class  st10037236.NewLoginTest  
          
             #run Task Class tests and output report 
-      - name: run Task Class tests and create report 
+      - name: run NewLogin Class tests and create report 
         working-directory: ./test
         run: |
          ls
